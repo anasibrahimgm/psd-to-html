@@ -6,7 +6,7 @@ $(function(){
 		var navbar = $('.navbar');
 		if($(window).scrollTop() >= $('.navbar').height()){
 			if(!navbar.hasClass('scrolled')){
-				navbar.addClass('scrolled');				
+				navbar.addClass('scrolled');
 			}
 		} else {
 			navbar.removeClass('scrolled');

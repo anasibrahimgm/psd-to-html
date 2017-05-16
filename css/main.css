@@ -193,11 +193,45 @@ body {
 	display: none;
 }
 
+.sublist {
+	padding: 80px 0;
+}
 
+.sublist .sub-img {
+	margin-top: 50px;
+}
 
+.sublist .sublist-head {
+	font-weight: bold;
+}
 
+.sublist .sublist-desc {
+	color: #777;
+	line-height: 1.6;
+	margin-bottom: 30px;
+}
 
+.sublist .list-icon {
+	display: block;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
 
+.sublist .list-icon i {
+	width: 40px;
+	height: 40px;
+	color: #FF8B38;
+	border: 2px solid #FF8B38;
+	border-radius: 50%;
+	line-height: 36px;
+	text-align: center;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.sublist .list-icon .text-info {
+	width: calc(100% - 70px);
+}
 
 
 
@@ -229,4 +263,13 @@ body {
 
 .lowercase {
 	text-transform: lowercase;
+}
+
+.head-border:after {
+	content: '';
+	display: block;
+	width: 65px;
+	height: 3px;
+	background-color: #FF8B38;
+	margin: 25px 0;
 }

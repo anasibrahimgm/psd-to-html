@@ -233,7 +233,24 @@ body {
 	width: calc(100% - 70px);
 }
 
+.standard-picture {
+	padding: 80px 0;
+	background-color: #f5f5f5;
+}
 
+.standard-picture .standard-img {
+	margin-top: 20px;
+}
+
+.standard-picture .standard-head {
+	font-weight: bold;
+}
+
+.standard-picture .standard-desc {
+	color: #777;
+	line-height: 1.6;
+	margin-bottom: 30px;
+}
 
 
 

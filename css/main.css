@@ -189,7 +189,7 @@ body {
 	border-radius: 3px;
 }
 
-.tabs-section .tabs-content div:not(.tab-one) {/* any did that is not tab-one*/
+.tabs-section .tabs-content div:not(.tab-one) {/* any div that is not tab-one*/
 	display: none;
 }
 
@@ -252,13 +252,41 @@ body {
 	margin-bottom: 30px;
 }
 
+.awesome {
+	padding: 80px 0;
+}
 
+.awesome .awesome-head {
+	font-weight: bold;
+	font-size: 50px;
+}
 
+.awesome .awesome-desc {
+	margin-bottom: 70px;
+	color: #a9aaac;
+}
 
+.awesome i {
+	color: #FF8B38;
+	width: 70px;
+	height: 70px;
+	line-height: 68px;
+	border: 2px solid #FF8B38;
+	border-radius: 50%;
+}
 
+.fa-keyboard-o {
+	font-size: 35px;
+}
 
+.awesome .feature-head {
+	font-weight: bold;
+	margin: 25px 0;
+}
 
-
+.awesome .feature-content {
+	color: #a9aaac;
+}
 
 
 
@@ -289,4 +317,14 @@ body {
 	height: 3px;
 	background-color: #FF8B38;
 	margin: 25px 0;
+}
+
+
+.head-border-center:after {
+	content: '';
+	display: block;
+	width: 65px;
+	height: 3px;
+	background-color: #FF8B38;
+	margin: 25px auto;
 }

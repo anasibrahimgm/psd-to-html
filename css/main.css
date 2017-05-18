@@ -1,5 +1,4 @@
 body {
-	height: 4000px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -437,6 +436,55 @@ body {
 .stylish .head-border-center:after {
 	background-color: #fff;
 }
+
+.contact {
+	padding: 70px 0;
+}
+
+.contact .contact-desc {
+	font-size: 15px;
+	font-weight: normal;
+	color: #a9aaac;
+	margin-bottom: 80px;
+}
+
+.contact .contact-form input[type="text"],
+.contact .contact-form input[type="email"] {
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.contact .contact-form textarea {
+	height: 178px;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+
+.contact .contact-btn {
+	margin: 30px auto;
+	display: block;
+	padding: 8px 20px;
+	border: 2px solid  #fff;
+	border-radius: 8px;
+	color: #fff;
+	background-color: #FF9B51;
+	font-weight: bolder;
+	font-size: 16px;
+	padding: 15px;
+}
+
+
+
+
+
+
+
 
 
 

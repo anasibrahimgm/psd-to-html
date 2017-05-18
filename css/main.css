@@ -479,7 +479,12 @@ body {
 	padding: 15px;
 }
 
-
+.footer {
+	background-color: #000;
+	color: #eee;
+	padding: 20px;
+	font-size: 15px;
+}
 
 
 

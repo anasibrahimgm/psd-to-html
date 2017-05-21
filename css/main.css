@@ -12,10 +12,16 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 115vh;
-	position: relative;
+	height: 110vh;
+	position: relative;/* because the layer i put on the header is position:absolute */
 	color: #fff;
 	overflow: hidden;
+}
+
+@media (max-width: 991px) {
+	.header {
+		height: 1000px;
+	}
 }
 
 .header .overlay {
@@ -44,12 +50,11 @@ body {
 
 .header h1 span {
 	font-weight: normal;
-	font-size: 60px;
 	color: #FF8B38;
 }
 
 .header h1 ~ .lead { /* the lead class after h1 */
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .header h1 ~ .lead:after {
